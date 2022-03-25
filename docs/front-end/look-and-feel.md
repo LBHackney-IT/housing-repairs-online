@@ -13,4 +13,4 @@ styles or using Lincoln.gov styles.
 | ![Original](/img/original.png) | ![Lincoln](/img/lincoln.png) |
 
 To return to the original design, remove `@import "lincoln";` from
-[`globals.scss`](https://github.com/City-of-Lincoln-Council/housing-repairs-online-frontend/blob/main/styles/globals.scss#L3)
+[`globals.scss`](https://github.com/LBHackney-IT/housing-repairs-online-frontend/blob/main/styles/globals.scss#L3)

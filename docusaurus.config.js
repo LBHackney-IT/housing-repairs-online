@@ -8,12 +8,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Housing Repairs Online',
   tagline: 'Repairs Online is a collaborative local authority project, funded by the DLUHC Local Digital Fund',
-  url: 'https://city-of-lincoln-council.github.io',
+  url: 'https://LBHackney-IT.github.io/',
   baseUrl: '/housing-repairs-online/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'City-of-Lincoln-Council', // Usually your GitHub org/user name.
+  favicon: 'img/favicon.png',
+  organizationName: 'LBHackney-IT', // Usually your GitHub org/user name.
   projectName: 'housing-repairs-online', // Usually your repo name.
 
   presets: [
@@ -58,7 +58,7 @@ const config = {
           },
           {to: 'https://repairsonlinedigitalfund.com/blog/', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/City-of-Lincoln-Council/housing-repairs-online',
+            href: 'https://github.com/LBHackney-IT/housing-repairs-online',
             label: 'GitHub',
             position: 'right',
           },
@@ -98,7 +98,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/City-of-Lincoln-Council/housing-repairs-online',
+                href: 'https://github.com/LBHackney-IT/housing-repairs-online',
               },
             ],
           },

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # API Authentication
 
-<a class="badge badge--secondary" href="https://github.com/City-of-Lincoln-Council/HousingRepairsOnline.Authentication">GitHub Repository</a>
+<a class="badge badge--secondary" href="https://github.com/LBHackney-IT/HousingRepairsOnline.Authentication">GitHub Repository</a>
 
 ## Authentication
 Requests to each API requires authentication.

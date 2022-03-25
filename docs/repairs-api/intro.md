@@ -1,6 +1,6 @@
 # Repairs API
 
-<a class="badge badge--secondary" href="https://github.com/City-of-Lincoln-Council/housing-repairs-online-api">GitHub Repository</a>
+<a class="badge badge--secondary" href="https://github.com/LBHackney-IT/housing-repairs-online-api">GitHub Repository</a>
 
 ## Frameworks used
 
@@ -72,7 +72,7 @@ Email notification template ID is configured via [environment variables](#n-emai
 <details>
   <summary>Suggested email template</summary>
   <div>
-    <strong>From:</strong>	Lincoln Repairs Online <br />
+    <strong>From:</strong>	Housing Repairs Online <br />
     <strong>To:</strong>	((<code>email</code> from <a href="../repairs-api/endpoints/repair#body" ><code>contactDetails.value</code></a>)) <br />
     <strong>Subject:</strong>	Repair details ((<code>repair_ref</code> generated when saving into Cosmos DB)) <br />
     <hr/>
@@ -97,7 +97,7 @@ SMS notification template ID is configured via [environment variables](#n-sms-en
     <strong>To:</strong>	((phone numer from <a href="../repairs-api/endpoints/repair#body" ><code>contactDetails.value</code></a>)) <br />
     <hr/>
     <p>
-      Lincoln Repairs Online: Your repair has been successfully booked. Your
+      Housing Repairs Online: Your repair has been successfully booked. Your
       booking reference is
       ((<code>repair_ref</code>))
       and your selected appointment date is
@@ -119,7 +119,7 @@ Email notification template ID is configured via [environment variables](#i-emai
 <details>
   <summary>Suggested email template</summary>
   <div>
-    <strong>From:</strong>	Lincoln Repairs Online <br />
+    <strong>From:</strong>	Housing Repairs Online <br />
     <strong>To:</strong>	((<code>email</code> from <a href="#email-env" ><code>INTERNAL_EMAIL</code></a>)) <br />
     <strong>Subject:</strong>	Repair details ((<code>repair_ref</code> generated when saving into Cosmos DB)) <br />
     <hr/>

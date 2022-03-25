@@ -38,7 +38,7 @@ Not all journey's have 3 tier's, e.g. Kitchen - Worktop
 :::
 
 ### Configuration
-The SoR engine is configured by specifying the SoR codes in [SoRConfig.json](https://github.com/City-of-Lincoln-Council/housing-repairs-online-api/blob/main/HousingRepairsOnlineApi/SoRConfig.json).
+The SoR engine is configured by specifying the SoR codes in [SoRConfig.json](https://github.com/LBHackney-IT/housing-repairs-online-api/blob/main/HousingRepairsOnlineApi/SoRConfig.json).
 
 Each existing SoR code must exist and have a value.
 

@@ -1,6 +1,6 @@
 # Housing Management System API
 
-<a class="badge badge--secondary" href="https://github.com/City-of-Lincoln-Council/HousingManagementSystemApi">GitHub Repository</a>
+<a class="badge badge--secondary" href="https://github.com/LBHackney-IT/HousingManagementSystemApi">GitHub Repository</a>
 
 ## Frameworks used
 

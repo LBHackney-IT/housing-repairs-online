@@ -1,6 +1,6 @@
 # Scheduling API
 
-<a class="badge badge--secondary" href="https://github.com/City-of-Lincoln-Council/HousingRepairsSchedulingApi">GitHub Repository</a>
+<a class="badge badge--secondary" href="https://github.com/LBHackney-IT/HousingRepairsSchedulingApi">GitHub Repository</a>
 
 ## Frameworks used
 

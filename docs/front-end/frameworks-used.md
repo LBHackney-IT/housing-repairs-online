@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Front end
 
-<a class="badge badge--secondary" href="https://github.com/City-of-Lincoln-Council/housing-repairs-online-frontend">GitHub Repository</a>
+<a class="badge badge--secondary" href="https://github.com/LBHackney-IT/housing-repairs-online-frontend">GitHub Repository</a>
 
 ## Frameworks used
 
@@ -14,7 +14,7 @@ deployed as an Azure static web app and functions.
 
 Is a react framework that provides client-side and server-side rendering.
 
-Source code for the app could be [found here](https://github.com/City-of-Lincoln-Council/housing-repairs-online-frontend).
+Source code for the app could be [found here](https://github.com/LBHackney-IT/housing-repairs-online-frontend).
 
 The frontend is currently deployed to Azure static web using github actions.
 
@@ -30,7 +30,7 @@ the frontend app to make calls to be Repairs API
 - [`SENTRY_DSN`](../alerting-and-monitoring/intro#azure-component-setup)
 
 Any environment variable that needs to be used on the client side should be set
-at deployment time in the [`Build And Deploy` job](https://github.com/City-of-Lincoln-Council/housing-repairs-online-frontend/blob/main/.github/workflows/azure-static-web-apps-purple-desert-05060ea03.yml#L100).
+at deployment time in the [`Build And Deploy` job](https://github.com/LBHackney-IT/housing-repairs-online-frontend/blob/main/.github/workflows/azure-static-web-apps-purple-desert-05060ea03.yml#L100).
 
 ## Monitoring and alerting
 

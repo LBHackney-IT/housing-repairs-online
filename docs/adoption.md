@@ -6,11 +6,11 @@ sidebar_position: 7
 
 ## Code Repositories
 Clone/fork the following repositories:
-- [housing-repairs-online](https://github.com/City-of-Lincoln-Council/housing-repairs-online)
-- [housing-repairs-online-frontend](https://github.com/City-of-Lincoln-Council/housing-repairs-online-frontend)
-- [housing-repairs-online-api](https://github.com/City-of-Lincoln-Council/housing-repairs-online-api)
-- [HousingRepairsSchedulingApi](https://github.com/City-of-Lincoln-Council/HousingRepairsSchedulingApi)
-- [HousingManagementSystemApi](https://github.com/City-of-Lincoln-Council/HousingManagementSystemApi)
+- [housing-repairs-online](https://github.com/LBHackney-IT/housing-repairs-online)
+- [housing-repairs-online-frontend](https://github.com/LBHackney-IT/housing-repairs-online-frontend)
+- [housing-repairs-online-api](https://github.com/LBHackney-IT/housing-repairs-online-api)
+- [HousingRepairsSchedulingApi](https://github.com/LBHackney-IT/HousingRepairsSchedulingApi)
+- [HousingManagementSystemApi](https://github.com/LBHackney-IT/HousingManagementSystemApi)
 - [HACT.Dtos](https://github.com/City-of-Lincoln-Council/HACT.Dtos)
 - [HousingRepairsOnline.Authentication](https://github.com/City-of-Lincoln-Council/HousingRepairsOnline.Authentication)
 
