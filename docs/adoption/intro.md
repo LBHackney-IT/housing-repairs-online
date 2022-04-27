@@ -16,15 +16,7 @@ Clone/fork the following repositories:
 
 The latter 2 produce Nuget packages, which if made public, could remove the need to clone their repositories.
 
-Forking the repositories will not copy any repository access settings nor branch protection rules. It is therefore recommended to immediately:
-
-- set code review limits, so that users outside of the organisation cannot approve pull requests
-  ![Branch protection diagram](/img/github-branch-protection-rules.png)
-- set branch protection rules for main (and other applicable branches) to
-  - require a pull request before merging
-  - require approval(s) on pull requests
-  - disable force pushes
-  ![Code review limits diagram](/img/github-code-review-limits.png)
+**Please note that forking the repositories will not copy any repository access settings nor branch protection rules. [Here](respository-settings) are some recommendations.**
 
 ## Nugets
 [HACT.Dtos](https://github.com/City-of-Lincoln-Council/HACT.Dtos) and [HousingRepairsOnline.Authentication](https://github.com/City-of-Lincoln-Council/HousingRepairsOnline.Authentication) produce Nuget packages which are consumed by other components.
@@ -37,7 +29,7 @@ Azure is the supported Cloud platform.
 Create the following resouces in Azure:
 
 ### APIs
-- Azure app service plan 
+- Azure app service plan
   - Consider which service plan would best suit the needs. Premium V2 (P1v2: 1) is recommended
   - Use a region which is geographically close to the users/residents and the 3rd party data
 - Azure app service for each API
