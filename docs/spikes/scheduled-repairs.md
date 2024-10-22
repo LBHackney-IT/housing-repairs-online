@@ -680,8 +680,7 @@ All values are in milliseconds.
    <td><p><strong>9046</strong></p></td>
   </tr>
   <tr>
-   <td><strong>5</strong>
-   </td>
+   <td><strong>5</strong></td>
    <td><p>1706</p></td>
    <td><p>1418</p></td>
    <td><p>1640</p></td>
@@ -692,8 +691,7 @@ All values are in milliseconds.
    <td><p><strong>11133</strong></p></td>
   </tr>
   <tr>
-   <td><strong>5</strong>
-   </td>
+   <td><strong>5</strong></td>
    <td><p>1425</p></td>
    <td><p>1569</p></td>
    <td><p>1532</p></td>
@@ -704,8 +702,7 @@ All values are in milliseconds.
    <td><p><strong>8926</strong></p></td>
   </tr>
   <tr>
-   <td><strong>5</strong>
-   </td>
+   <td><strong>5</strong></td>
    <td><p>1956</p></td>
    <td><p>1178</p></td>
    <td><p>1910</p></td>
@@ -716,8 +713,7 @@ All values are in milliseconds.
    <td><p><strong>10246</strong></p></td>
   </tr>
   <tr>
-   <td><strong>Average</strong>
-   </td>
+   <td><strong>Average</strong></td>
    <td><p><strong>1611</strong></p></td>
    <td><p><strong>1563</strong></p></td>
    <td><p><strong>1575</strong></p></td>
