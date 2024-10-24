@@ -7,7 +7,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Housing Repairs Online',
   tagline: 'Repairs Online is a collaborative local authority project, funded by the DLUHC Local Digital Fund',
-  url: 'https://LBHackney-IT.github.io/',
+  url: 'https://playbook.hackney.gov.uk',
   baseUrl: '/housing-repairs-online/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -24,14 +24,9 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/LBHackney-IT/housing-repairs-online/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -50,13 +45,6 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Documentation',
-          },
-          {to: 'https://repairsonlinedigitalfund.com/blog/', label: 'Blog', position: 'left'},
-          {
             href: 'https://github.com/LBHackney-IT/housing-repairs-online',
             label: 'GitHub',
             position: 'right',
@@ -73,28 +61,6 @@ const config = {
                 label: 'Documentation',
                 to: '/',
               },
-            ],
-          },
-          {
-            title: 'About',
-            items: [
-              {
-                label: 'Our Approach',
-                href: 'https://repairsonlinedigitalfund.com/about/',
-              },
-              {
-                label: 'Project background',
-                href: 'https://repairsonlinedigitalfund.com/project-background/',
-              }
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                href: 'https://repairsonlinedigitalfund.com/blog/',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/LBHackney-IT/housing-repairs-online',
@@ -102,7 +68,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Hackney Council`,
       },
       prism: {
         theme: prismThemes.github,
