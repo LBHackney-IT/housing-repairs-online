@@ -45,13 +45,6 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Documentation',
-          },
-          {to: 'https://repairsonlinedigitalfund.com/blog/', label: 'Blog', position: 'left'},
-          {
             href: 'https://github.com/LBHackney-IT/housing-repairs-online',
             label: 'GitHub',
             position: 'right',
@@ -68,28 +61,6 @@ const config = {
                 label: 'Documentation',
                 to: '/',
               },
-            ],
-          },
-          {
-            title: 'About',
-            items: [
-              {
-                label: 'Our Approach',
-                href: 'https://repairsonlinedigitalfund.com/about/',
-              },
-              {
-                label: 'Project background',
-                href: 'https://repairsonlinedigitalfund.com/project-background/',
-              }
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                href: 'https://repairsonlinedigitalfund.com/blog/',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/LBHackney-IT/housing-repairs-online',
@@ -97,7 +68,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Hackney Council`,
       },
       prism: {
         theme: prismThemes.github,
