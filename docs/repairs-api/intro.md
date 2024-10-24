@@ -10,13 +10,13 @@ Written in .Net
 
 > [Azure Blob storage](https://docs.microsoft.com/en-gb/azure/storage/blobs/storage-blobs-introduction) is Microsoft's object storage solution for the cloud.
 
-Photos uploaded as part of the [`description.base64img` in save repair request body](../repairs-api/endpoints/repair#body) are uploaded to a container that can be configured via [environment variables](#blob-env).
+Photos uploaded as part of the [`description.base64img` in save repair request body](../repairs-api/endpoints/repair#body) are uploaded to a container that can be configured via [environment variables](#environment-variables).
 
 ### Cosmos DB
 
 > [Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction) is a fully managed NoSQL database service for modern app development.
 
-Submitted repair requests are saved in a container that is configured via [environment variables](#cosmos-env) and requests are saved in the following structure:
+Submitted repair requests are saved in a container that is configured via [environment variables](#environment-variables) and requests are saved in the following structure:
 ```json
 {
     "id": "20B2459F",
@@ -64,11 +64,11 @@ Submitted repair requests are saved in a container that is configured via [envir
 > [GOV.UK Notify](https://docs.notifications.service.gov.uk/net.html#net-client-documentation) lets you send emails, text messages and letters to your users.
 
 Once a repair request is saved into Cosmos DB, two notifications are sent - one
-to the user and one to the email that's configured via [environment variables](#email-env)
+to the user and one to the email that's configured via [environment variables](#environment-variables)
 
 #### User notifications
 
-Email notification template ID is configured via [environment variables](#n-email-env).
+Email notification template ID is configured via [environment variables](#environment-variables).
 <details>
   <summary>Suggested email template</summary>
   <div>
@@ -90,7 +90,7 @@ Email notification template ID is configured via [environment variables](#n-emai
   </div>
 </details>
 
-SMS notification template ID is configured via [environment variables](#n-sms-env).
+SMS notification template ID is configured via [environment variables](#environment-variables).
 <details>
   <summary>Suggested SMS template</summary>
   <div>
@@ -114,7 +114,7 @@ SMS notification template ID is configured via [environment variables](#n-sms-en
 
 #### Internal notification email
 
-Email notification template ID is configured via [environment variables](#i-email-env).
+Email notification template ID is configured via [environment variables](#environment-variables).
 
 <details>
   <summary>Suggested email template</summary>
